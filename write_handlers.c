@@ -1,7 +1,3 @@
-write_handlers.c
-
-
-
 #include "main.h"
 
 /************************* WRITE HANDLE *************************/
@@ -204,7 +200,7 @@ int write_unsgnd(int is_negative, int ind,
  * @buffer: Arrays of chars
  * @ind: Index at which the number starts in the buffer
  * @length: Length of number
- * @width: Width specifier
+ * @width: Wwidth specifier
  * @flags: Flags specifier
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char
